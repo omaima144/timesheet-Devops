@@ -28,9 +28,13 @@ public class User implements Serializable {
 	private String firstName; 
 	
 	private String lastName;
+
 	private String email;
 	private Long number;
-	
+
+
+	private String addres;
+
 	@Temporal(TemporalType.DATE)
 	private Date dateNaissance;
 	
